@@ -1,0 +1,30 @@
+{
+  "name": "lowdb-sample",
+  "version": "1.0.0",
+  "description": "sample of use of lowdb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --ignore data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandochata/LowDB-sample.git"
+  },
+  "keywords": [],
+  "author": "Fernando Chata",
+  "license": "Mit License",
+  "bugs": {
+    "url": "https://github.com/fernandochata/LowDB-sample/issues"
+  },
+  "homepage": "https://github.com/fernandochata/LowDB-sample#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lowdb": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
